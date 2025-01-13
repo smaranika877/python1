@@ -1,0 +1,30 @@
+sex = input("enter sex(male, female, m, f): ")
+age = int(input("enter the number"))
+if(sex.lower() in ("female", "f")):
+    if(age>=18):
+        print("eligible for marraige")
+    else:
+        print("not eligible for marriage")
+elif(sex.lower() in ("male", "m")):
+    if(age>=21):
+        print("eligible for marriage")
+    else:
+        print("not eligible for marriage")
+else:
+    print("we dont know")
+
+
+
+
+
+
+
+
+eligibility for voting
+
+
+age = int(input("Enter your age: "))
+if (age>=18):
+    print("eligible for voting")
+else:
+    print("not eligible")
